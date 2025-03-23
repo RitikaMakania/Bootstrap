@@ -19,6 +19,26 @@
     background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
     color: #dde2ff !important; /* Ensure hover text is visible */
 }
-.behind{
-    background-color: #F7F8FC !important;
+
+.behind {
+    background-color: #F7F8FC !important; /* Light background for main content */
+}
+
+/* Additional Styling for Cards and SVG */
+.card {
+    height: 100%; /* Ensure cards have the same height */
+    border: none; /* Remove card borders */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.svg-container {
+    width: 100%; /* Ensure SVG spans the full width */
+    height: auto; /* Allow SVG to scale proportionally */
+    overflow: auto; /* Add scroll if SVG overflows */
+}
+
+/* Shift cards down and span them across the SVG length */
+.cards-container {
+    margin-top: 20px; /* Shift cards down */
+    width: 100%; /* Span the entire width of the container */
 }
