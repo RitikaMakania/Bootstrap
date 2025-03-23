@@ -4,8 +4,8 @@
 }
 
 .custom-sidebar .list-group-item {
-    background-color: transparent; /* Transparent background */
-    border: none; /* Remove borders */
+    background-color: transparent; 
+    border: none; 
     color: #dde2ff !important; /* Text color for list items */
 }
 
@@ -17,7 +17,7 @@
 
 .custom-sidebar .list-group-item:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
-    color: #dde2ff !important; /* Ensure hover text is visible */
+    color: #dde2ff !important; 
 }
 
 .behind {
@@ -27,18 +27,17 @@
 /* Additional Styling for Cards and SVG */
 .card {
     height: 100%; /* Ensure cards have the same height */
-    border: none; /* Remove card borders */
+    border: none; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .svg-container {
     width: 100%; /* Ensure SVG spans the full width */
-    height: auto; /* Allow SVG to scale proportionally */
-    overflow: auto; /* Add scroll if SVG overflows */
+    height: auto; 
+    overflow: auto; 
 }
 
-/* Shift cards down and span them across the SVG length */
 .cards-container {
     margin-top: 20px; /* Shift cards down */
-    width: 100%; /* Span the entire width of the container */
+    width: 100%; 
 }
