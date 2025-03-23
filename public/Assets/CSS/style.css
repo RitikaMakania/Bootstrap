@@ -1,0 +1,12 @@
+.custom-sidebar {
+    background-color: #363740 !important; 
+    color: white !important; 
+}
+
+.custom-sidebar .nav-link {
+    color: white !important; 
+}
+
+.custom-sidebar .nav-link.active {
+    background-color: #495057 !important; 
+}
