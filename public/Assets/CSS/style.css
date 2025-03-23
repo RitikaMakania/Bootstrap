@@ -1,12 +1,24 @@
 .custom-sidebar {
-    background-color: #363740 !important; 
-    color: white !important; 
+    background-color: #363740 !important; /* Sidebar main color */
+    color: #DDE2FF !important; /* Text color for sidebar */
 }
 
-.custom-sidebar .nav-link {
-    color: white !important; 
+.custom-sidebar .list-group-item {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove borders */
+    color: #dde2ff !important; /* Text color for list items */
 }
 
-.custom-sidebar .nav-link.active {
-    background-color: #495057 !important; 
+.custom-sidebar .list-group-item.active {
+    background-color: #495057 !important; /* Darker background for active item */
+    border: none; /* Remove borders */
+    color: #dde2ff !important; /* Ensure active item text is visible */
+}
+
+.custom-sidebar .list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light hover effect */
+    color: #dde2ff !important; /* Ensure hover text is visible */
+}
+.behind{
+    background-color: #F7F8FC !important;
 }
