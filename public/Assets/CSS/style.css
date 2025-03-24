@@ -68,3 +68,16 @@ body, html {
 a {
     text-decoration: none;
   }
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+    .custom-sidebar {
+        display: none;
+    }
+  }
