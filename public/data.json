@@ -2,10 +2,10 @@
     "unresolvedTickets": {
       "group": "Reuben",
       "items": [
-        { "title": "Waiting on Feature Request", "count": 580 },
-        { "title": "Awaiting Customer Response", "count": 16},
-        { "title": "Awaiting Developer Fix", "count": 91 },
-        { "title": "Pending", "count": 81 }
+        { "title": "Waiting on Feature Request", "count": 20 },
+        { "title": "Awaiting Customer Response", "count": 82},
+        { "title": "Awaiting Developer Fix", "count": 1 },
+        { "title": "Pending", "count": 1 }
       ]
     },
     
@@ -16,9 +16,14 @@
           { "label": "Create new ticket example", "status": "New" },
           { "label": "Update ticket report", "status": "Default", "checked": true }
         ]
-      }
+      },
     
-    
+    "summaryCards": [
+    { "label": "Unresolved", "value": 20 },
+    { "label": "Overdue", "value": 25 },
+    { "label": "Open", "value": 4 },
+    { "label": "On hold", "value": 14 }
+  ]
     
     
      
